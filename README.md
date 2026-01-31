@@ -89,16 +89,8 @@ CREATE TABLE IF NOT EXISTS Fees (
     due_date DATE,
     FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE
 );
-
-Here is the final, complete, and correctly formatted README.md file. It includes every section, SQL script, and the specific formatting instructions you requested for the installation and workflow steps.
-
-Copy the code block below and save it as README.md.
-
-Markdown
-# 🏫 School Management System (SMS)
-
-A full-stack web application designed to streamline school administration. This system enables administrators to manage student records, teacher profiles, class schedules, daily attendance, and fee collections through a modern, responsive dashboard connected to a relational MySQL database.
-
+```
+---
 
 Step 2: Backend Setup
 Open your project folder in the terminal (Command Prompt or PowerShell).
