@@ -104,7 +104,7 @@ npm install express mysql2 cors body-parser
 
 Open the file server.js and check the Database Connection settings. If you use a password for MySQL, update it here:
 
-# JavaScript
+## JavaScript
 ```sql
 const db = mysql.createConnection({
     host: 'localhost',
